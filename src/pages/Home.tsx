@@ -36,7 +36,7 @@ function Hero() {
         className="relative z-10 w-full max-w-5xl mx-auto flex justify-center mt-10 px-5"
       >
         <img
-          src="https://ik.imagekit.io/gavin/band/live.png"
+          src="https://ik.imagekit.io/gavin/band/tr:w-900/live.png"
           alt="peXAppeal Band Members Performing Live"
           className="w-full max-w-4xl object-cover grayscale-25 contrast-125 mix-blend-lighten"
           style={{
@@ -164,7 +164,7 @@ function QuickAbout() {
             className="w-full relative overflow-hidden border-2 border-border bg-bg-alt group hover:border-accent transition-colors"
           >
             <img
-              src="https://ik.imagekit.io/gavin/band/band.png"
+              src="https://ik.imagekit.io/gavin/band/tr:w-1000/band.png"
               alt="The Band"
               className="w-full h-auto object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
             />
