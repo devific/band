@@ -94,22 +94,23 @@ export default function About() {
           >
             {[
               {
-                name: 'GAVIN "PEX" PEREIRA',
+                name: "DAVID WILLIAMS",
                 role: "LEAD VOCALS",
                 image: "gavin.png",
+              },
+              {
+                name: "SONIA D'MELLO",
+                role: "KEYBOARDS & VOCALS",
+                image: "sonia.png?updatedAt=1773605019933",
               },
               {
                 name: "DANNY ALVES",
                 role: "ELECTRIC GUITAR",
                 image: "danny.png",
               },
+
               {
-                name: "SONIA D'MELLO",
-                role: "KEYBOARDS & VOCALS",
-                image: "sonia.png",
-              },
-              {
-                name: 'ANKIT "TANK" RAO',
+                name: "ANKIT RAO",
                 role: "BASS GUITAR",
                 image: "ankit.png",
               },
