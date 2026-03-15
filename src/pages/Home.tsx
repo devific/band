@@ -21,7 +21,7 @@ function Hero() {
     >
       <motion.div
         style={{ y: yText, opacity }}
-        className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-5 overflow-hidden z-0"
+        className="max-lg:hidden absolute inset-0 flex items-center justify-center pointer-events-none opacity-5 overflow-hidden z-0"
       >
         <h1 className="text-[25vw] font-display leading-none whitespace-nowrap text-text-main">
           peXAppeal
@@ -41,9 +41,9 @@ function Hero() {
           className="w-full max-w-4xl object-cover grayscale-25 contrast-125 mix-blend-lighten"
           style={{
             maskImage:
-              "linear-gradient(to bottom, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%)",
+              "linear-gradient(to bottom, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%)",
             WebkitMaskImage:
-              "linear-gradient(to bottom, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%)",
+              "linear-gradient(to bottom, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%)",
           }}
         />
       </motion.div>
@@ -52,7 +52,7 @@ function Hero() {
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        className="relative z-20 flex flex-col items-center text-center mt-[-15vh] px-5 w-full max-w-4xl"
+        className="relative z-20 flex flex-col items-center text-center lg:mt-[-15vh] px-5 w-full max-w-4xl"
       >
         <div className="bg-bg-base border-2 border-border p-6 md:p-10 w-full shadow-[16px_16px_0px_0px_var(--color-accent)]">
           <h2 className="text-4xl md:text-7xl font-display text-text-main mb-4 tracking-tight">
